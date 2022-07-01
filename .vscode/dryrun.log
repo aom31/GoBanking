@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/thamakorn/Desktop/Robotic_Software/goDeveloper/GoBanking'
+make.exe: Leaving directory 'c:/Users/thamakorn/Desktop/Robotic_Software/goDeveloper/GoBanking'
+ 
+make.exe: *** No targets.  Stop.
+
