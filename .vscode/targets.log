@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 01 18:52:05 2022
+# Make data base, printed on Thu Jul 07 22:26:14 2022
 
 # Variables
 
@@ -53,6 +53,8 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RB
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
 TMP = C:\Users\THAMAK~1\AppData\Local\Temp
 # environment
 VSCODE_VERBOSE_LOGGING = true
@@ -61,17 +63,15 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bfcda6d8-64a8-4558-8aef-2be8b1b2090b-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-9e90fc22-cb66-402b-86bb-88c720af2c96-sock
 # environment
-VSCODE_CWD = C:\Users\thamakorn\Desktop\Robotic_Software\goDeveloper\GoBanking
+VSCODE_CWD = C:\Users\thamakorn\AppData\Local\Programs\Microsoft VS Code
 # default
 MAKE_HOST := Windows32
 # environment
 PATH = C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_333\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\CMake\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_333\bin;C:\apache-maven-3.8.5\bin;C:\Program Files\Git\cmd;C:\Users\thamakorn\AppData\Roaming\Python\Python38\Scripts;C:\Users\thamakorn\Downloads\software_engineer\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Go\bin;C:\Program Files\BellSoft\LibericaJDK-17\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\thamakorn\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Ruby30-x64\bin;C:\Users\thamakorn\AppData\Local\Microsoft\WindowsApps;C:\Users\thamakorn\Downloads\dowload_programAom\MinGW\bin;C:\src\flutter\bin;C:\Users\thamakorn\AppData\Local\Android\Sdk\tools;C:\Users\thamakorn\AppData\Local\Android\Sdk\tools\bin;C:\Users\thamakorn\AppData\Local\Android\Sdk\platform-tools;C:\Users\thamakorn\AppData\Local\GitHubDesktop\bin;C:\Users\thamakorn\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.1\bin;;C:\Users\thamakorn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\bin;;C:\Program Files\Java\jdk1.8.0_333\bin;C:\Users\thamakorn\AppData\Roaming\Python\Python38\Scripts;C:\Users\thamakorn\Downloads\software_engineer\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;C:\Users\thamakorn\go\bin;C:\Program Files\BellSoft\LibericaJDK-17\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
-# environment
-LC_ALL = C
 # environment
 PROCESSOR_ARCHITECTURE = AMD64
 # environment
@@ -91,7 +91,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_31708_UXEXNGNIQBXQGXKD
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2428_ZPQGRSFLNDBCGCKI
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -113,11 +113,9 @@ PUBLIC = C:\Users\Public
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-VSCODE_CLI = 1
-# environment
 VSCODE_CODE_CACHE_PATH = C:\Users\thamakorn\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files\Common Files
 # environment
@@ -143,7 +141,7 @@ JAVA_HOME = C:\Program Files\BellSoft\LibericaJDK-17
 # default
 MAKE_VERSION := 4.2.1
 # makefile
-.DEFAULT_GOAL := 
+.DEFAULT_GOAL := postgres
 # environment
 ACSVCPORT = 17532
 # environment
@@ -197,7 +195,7 @@ VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Communit
 # environment
 ANDROID_SDK_ROOT = C:\Users\thamakorn\AppData\Local\Android\Sdk
 # environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
+LC_ALL = C
 # automatic
 ^F = $(notdir $^)
 # default
@@ -221,11 +219,13 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 25
 # environment
-VSCODE_PID = 31708
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 2428
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-AAC3TGNU
 # variable set hash-table stats:
-# Load=106/1024=10%, Rehash=0, Collisions=17/127=13%
+# Load=106/1024=10%, Rehash=0, Collisions=15/128=12%
 
 # Pattern-specific Variable Values
 
@@ -233,15 +233,23 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-AAC3TGNU
 
 # Directories
 
-# . (key c:/Users/thamakorn/Desktop/Robotic_Software/goDeveloper/GoBanking, mtime 1656676323): 8 files, no impossibilities.
+# . (key c:/Users/thamakorn/Desktop/Robotic_Software/goDeveloper/GoBanking, mtime 1656691892): 10 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
 
 # Files
+
+postgres:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 2):
+	docker run --name postgres12 -p 5432:5432 -e POSTGRES_USER=root -e  POSTGRES_PASSWORD=syspass -d postgres:12-alpine
 
 # Not a target:
 all:
@@ -250,12 +258,33 @@ all:
 #  File does not exist.
 #  File has not been updated.
 
+.PHONY: postgres createdb dropdb migrateup migratedown sqlc
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sqlc:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 15):
+	sqlc generate
+
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-01 18:51:45
+#  Last modified 2022-07-05 21:03:48
 #  File has been updated.
 #  Successfully updated.
+
+createdb:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 4):
+	docker exec -it postgres12 createdb --username=root --owner=root simpleBank
 
 # Not a target:
 .DEFAULT:
@@ -263,20 +292,44 @@ Makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
+dropdb:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 6):
+	docker exec -it postgres12 dropdb simpleBank
+
+migrateup:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 9):
+	migrate -path db/migration -databse "postgresql://root:syspass@localhost:5432/simpleBank?sslmode=disable" -verbose up
+
+migratedown:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 12):
+	migrate -path db/migration -databse "postgresql://root:syspass@localhost:5432/simpleBank?sslmode=disable" -verbose down
+
 # files hash-table stats:
-# Load=4/1024=0%, Rehash=0, Collisions=0/14=0%
+# Load=11/1024=1%, Rehash=0, Collisions=0/27=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 11 / storage = 77 B / avg = 7 B
-# current buf: size = 8162 B / used = 77 B / count = 11 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 20 / storage = 156 B / avg = 7 B
+# current buf: size = 8162 B / used = 156 B / count = 20 / avg = 7 B
 
-# strcache performance: lookups = 15 / hit rate = 26%
+# strcache performance: lookups = 37 / hit rate = 45%
 # hash-table stats:
-# Load=11/8192=0%, Rehash=0, Collisions=1/15=7%
-# Finished Make data base on Fri Jul 01 18:52:05 2022
+# Load=20/8192=0%, Rehash=0, Collisions=1/37=3%
+# Finished Make data base on Thu Jul 07 22:26:14 2022
 
  

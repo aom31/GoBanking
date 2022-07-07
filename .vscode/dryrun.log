@@ -1,6 +1,5 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory 'c:/Users/thamakorn/Desktop/Robotic_Software/goDeveloper/GoBanking'
+docker run --name postgres12 -p 5432:5432 -e POSTGRES_USER=root -e  POSTGRES_PASSWORD=syspass -d postgres:12-alpine
 make.exe: Leaving directory 'c:/Users/thamakorn/Desktop/Robotic_Software/goDeveloper/GoBanking'
  
-make.exe: *** No targets.  Stop.
-
