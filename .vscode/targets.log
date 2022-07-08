@@ -1,231 +1,263 @@
-make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make.exe: *** No rule to make target 'all'.  Stop.
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.2.1
-# Built for Windows32
+# Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 07 22:26:14 2022
+# Make data base, printed on Fri Jul  8 09:45:59 2022
 
 # Variables
 
 # 'override' directive
 GNUMAKEFLAGS := 
 # automatic
-<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+<D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
 # default
 .SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
 # makefile
-MAKEFLAGS = pqrR
-# environment
-VSCODE_LOG_NATIVE = false
-# automatic
-?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
-# automatic
-@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
-# environment
-HOMEDRIVE = C:
-# automatic
-@F = $(notdir $@)
-# automatic
-^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+CURDIR := /home/aom/Desktop/dev/src/GoBanking
 # makefile
-CURDIR := c:/Users/thamakorn/Desktop/Robotic_Software/goDeveloper/GoBanking
-# default
-SHELL := sh.exe
+SHELL = /bin/sh
 # environment
-WINDIR = C:\WINDOWS
+VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.1\bin;
+JOURNAL_STREAM = 8:51988
 # environment
-ONEDRIVE = C:\Users\thamakorn\OneDrive
-# environment
-MAVEN_HOME = C:\apache-maven-3.8.5
-# environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
-# environment
-TMP = C:\Users\THAMAK~1\AppData\Local\Temp
-# environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-PROGRAMW6432 = C:\Program Files
-# environment
-PROGRAMDATA = C:\ProgramData
-# environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-9e90fc22-cb66-402b-86bb-88c720af2c96-sock
-# environment
-VSCODE_CWD = C:\Users\thamakorn\AppData\Local\Programs\Microsoft VS Code
-# default
-MAKE_HOST := Windows32
-# environment
-PATH = C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_333\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\CMake\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_333\bin;C:\apache-maven-3.8.5\bin;C:\Program Files\Git\cmd;C:\Users\thamakorn\AppData\Roaming\Python\Python38\Scripts;C:\Users\thamakorn\Downloads\software_engineer\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Go\bin;C:\Program Files\BellSoft\LibericaJDK-17\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\thamakorn\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Ruby30-x64\bin;C:\Users\thamakorn\AppData\Local\Microsoft\WindowsApps;C:\Users\thamakorn\Downloads\dowload_programAom\MinGW\bin;C:\src\flutter\bin;C:\Users\thamakorn\AppData\Local\Android\Sdk\tools;C:\Users\thamakorn\AppData\Local\Android\Sdk\tools\bin;C:\Users\thamakorn\AppData\Local\Android\Sdk\platform-tools;C:\Users\thamakorn\AppData\Local\GitHubDesktop\bin;C:\Users\thamakorn\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.1\bin;;C:\Users\thamakorn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\bin;;C:\Program Files\Java\jdk1.8.0_333\bin;C:\Users\thamakorn\AppData\Roaming\Python\Python38\Scripts;C:\Users\thamakorn\Downloads\software_engineer\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;C:\Users\thamakorn\go\bin;C:\Program Files\BellSoft\LibericaJDK-17\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;
-# environment
-COMMONPROGRAMW6432 = C:\Program Files\Common Files
-# environment
-PROCESSOR_ARCHITECTURE = AMD64
-# environment
-USERPROFILE = C:\Users\thamakorn
-# environment
-ALLUSERSPROFILE = C:\ProgramData
-# environment
-GOPATH = C:\Users\thamakorn\go
-# environment
-VSCODE_LOG_STACK = false
-# environment
-NUMBER_OF_PROCESSORS = 16
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync load
 # automatic
-%F = $(notdir $%)
+@F = $(notdir $@)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2428_ZPQGRSFLNDBCGCKI
+IM_CONFIG_PHASE = 1
 # environment
-VSCODE_PIPE_LOGGING = true
-# environment
-COMPUTERNAME = LAPTOP-AAC3TGNU
-# environment
-PROGRAMFILES = C:\Program Files
-# default
-.LOADED := 
-# environment
-DRIVERDATA = C:\Windows\System32\Drivers\DriverData
-# environment
-ASL.LOG = Destination=file
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# environment
-USERNAME = thamakorn
-# environment
-PUBLIC = C:\Users\Public
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-VSCODE_CODE_CACHE_PATH = C:\Users\thamakorn\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-COMMONPROGRAMFILES = C:\Program Files\Common Files
-# environment
-LOGONSERVER = \\LAPTOP-AAC3TGNU
-# environment
-M2_HOME = C:\apache-maven-3.8.5
-# environment
-ONEDRIVECONSUMER = C:\Users\thamakorn\OneDrive
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# environment
-USERDOMAIN = LAPTOP-AAC3TGNU
+USERNAME = aom
 # environment
 MAKELEVEL := 0
 # environment
-INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\bin;
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+ROS_ETC_DIR = /opt/ros/noetic/etc/ros
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+_ = /usr/bin/code
+# environment
+ROS_PACKAGE_PATH = /opt/ros/noetic/share
+# environment
+MANAGERPID = 1888
+# environment
+ROS_PYTHON_VERSION = 3
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = th_TH.UTF-8
+# environment
+VSCODE_CWD = /home/aom/Desktop/dev/src/GoBanking
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /opt/ros/noetic/bin:/home/aom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/AOM:@/tmp/.ICE-unix/2170,unix/AOM:/tmp/.ICE-unix/2170
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+ROS_ROOT = /opt/ros/noetic/share/ros
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = dee0adbcf7724b0fb7126a32945077e9
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+CMAKE_PREFIX_PATH = /opt/ros/noetic
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+ROS_DISTRO = noetic
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+PWD = /home/aom/Desktop/dev/src/GoBanking
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2135
+# environment
+PKG_CONFIG_PATH = /opt/ros/noetic/lib/pkgconfig
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/aom
+# environment
+LD_LIBRARY_PATH = /opt/ros/noetic/lib
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/aom/.config/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# environment
+LOGNAME = aom
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = th_TH.UTF-8
+# environment
+COLORTERM = truecolor
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-JAVA_HOME = C:\Program Files\BellSoft\LibericaJDK-17
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 1
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
 # default
 MAKE_VERSION := 4.2.1
+# environment
+USER = aom
+# environment
+VK_ICD_FILENAMES = /usr/share/vulkan/icd.d/nvidia_icd.json
+# environment
+LC_MONETARY = th_TH.UTF-8
 # makefile
 .DEFAULT_GOAL := postgres
 # environment
-ACSVCPORT = 17532
+XDG_CURRENT_DESKTOP = Unity
 # environment
-PROGRAMFILES(X86) = C:\Program Files (x86)
+ROSLISP_PACKAGE_DIRECTORIES = 
 # automatic
-%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+%D = $(patsubst %/,%,$(dir $%))
 # environment
-LOCALAPPDATA = C:\Users\thamakorn\AppData\Local
-# environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+LC_TELEPHONE = th_TH.UTF-8
 # default
-MAKE_COMMAND := make.exe
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/aom/Desktop/dev/src
 # default
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
 # environment
-PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+VSCODE_IPC_HOOK = /run/user/1000/vscode-a6ff6513-1.69.0-main.sock
 # environment
-OS = Windows_NT
-# environment
-VSCODE_IPC_HOOK = \\.\pipe\c74b36f62d1f3785174972eacfe77537-1.68.1-main-sock
-# environment
-HOMEPATH = \Users\thamakorn
-# environment
-COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
-# environment
-PROMPT = $P$G
+PYTHONPATH = /opt/ros/noetic/lib/python3/dist-packages
+# makefile
+MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # automatic
-*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+*D = $(patsubst %/,%,$(dir $*))
 # environment
-SYSTEMROOT = C:\WINDOWS
+ROS_VERSION = 1
 # automatic
-+D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
-# automatic
-+F = $(notdir $+)
++D = $(patsubst %/,%,$(dir $+))
 # environment
-APPDATA = C:\Users\thamakorn\AppData\Roaming
+GDK_BACKEND = x11
 # environment
-TEMP = C:\Users\THAMAK~1\AppData\Local\Temp
+LC_PAPER = th_TH.UTF-8
 # environment
-COMSPEC = C:\WINDOWS\system32\cmd.exe
+LC_IDENTIFICATION = th_TH.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
 # default
 MAKEFILES := 
+# environment
+LC_NUMERIC = th_TH.UTF-8
 # automatic
 <F = $(notdir $<)
 # environment
-VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
+LC_MEASUREMENT = th_TH.UTF-8
 # environment
-ANDROID_SDK_ROOT = C:\Users\thamakorn\AppData\Local\Android\Sdk
+ROS_MASTER_URI = http://localhost:11311
 # environment
 LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/b298022d_51bb_47fc_b232_0edf6b8b940b
 # automatic
 ^F = $(notdir $^)
+# environment
+GNOME_TERMINAL_SERVICE = :1.354
 # default
 SUFFIXES := 
 # environment
-SYSTEMDRIVE = C:
+CHROME_DESKTOP = code-url-handler.desktop
 # environment
-SESSIONNAME = Console
-# environment
-PROCESSOR_REVISION = 5000
+WINDOWPATH = 2
 # default
-.INCLUDE_DIRS = .
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
-ADSK_3DSMAX_X64_2018 = C:\Program Files\Autodesk\3ds Max 2018\
-# environment
-VBOX_HWVIRTEX_IGNORE_SVM_IN_USE = 1
+GJS_DEBUG_OUTPUT = stderr
 # default
 .RECIPEPREFIX := 
 # environment
+LC_ADDRESS = th_TH.UTF-8
+# environment
 LANG = C
 # environment
-PROCESSOR_LEVEL = 25
+TERM = xterm-256color
 # environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
-# environment
-VSCODE_PID = 2428
-# environment
-USERDOMAIN_ROAMINGPROFILE = LAPTOP-AAC3TGNU
+VSCODE_PID = 57926
 # variable set hash-table stats:
-# Load=106/1024=10%, Rehash=0, Collisions=15/128=12%
+# Load=122/1024=12%, Rehash=0, Collisions=19/147=13%
 
 # Pattern-specific Variable Values
 
@@ -233,7 +265,7 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-AAC3TGNU
 
 # Directories
 
-# . (key c:/Users/thamakorn/Desktop/Robotic_Software/goDeveloper/GoBanking, mtime 1656691892): 10 files, no impossibilities.
+# . (device 66306, inode 2494831): 10 files, no impossibilities.
 
 # 10 files, no impossibilities in 1 directories.
 
@@ -274,7 +306,8 @@ sqlc:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-05 21:03:48
+ 
+#  Last modified 2022-07-08 09:17:38.436821296
 #  File has been updated.
 #  Successfully updated.
 
@@ -324,12 +357,12 @@ migratedown:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 156 B / avg = 7 B
-# current buf: size = 8162 B / used = 156 B / count = 20 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 188 B / avg = 8 B
+# current buf: size = 8162 B / used = 188 B / count = 22 / avg = 8 B
 
-# strcache performance: lookups = 37 / hit rate = 45%
+# strcache performance: lookups = 39 / hit rate = 43%
 # hash-table stats:
-# Load=20/8192=0%, Rehash=0, Collisions=1/37=3%
-# Finished Make data base on Thu Jul 07 22:26:14 2022
+# Load=22/8192=0%, Rehash=0, Collisions=1/39=3%
+# Finished Make data base on Fri Jul  8 09:45:59 2022
 
  
