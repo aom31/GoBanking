@@ -1,7 +1,7 @@
 -- name: CreateEntries :one
 INSERT INTO entries (
   account_id,
-  amount,
+  amount
 ) VALUES (
   $1, $2
 ) RETURNING *;
@@ -10,7 +10,7 @@ INSERT INTO entries (
 SELECT * FROM entries
 WHERE id = $1 LIMIT 1;
 
--- name: ListAccounts :many
+-- name: ListEntries :many
 SELECT * FROM entries
 WHERE account_id = $1
 ORDER BY id
